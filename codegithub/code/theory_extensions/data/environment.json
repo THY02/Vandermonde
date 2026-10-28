@@ -1,0 +1,19 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "mpmath": "1.4.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed": 20261024,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "<redacted>/numpy.libs/libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ]
+}
