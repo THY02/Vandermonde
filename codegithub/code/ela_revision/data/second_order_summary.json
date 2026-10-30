@@ -1,8 +1,0 @@
-{
-  "exact_degrees": 63,
-  "high_precision_matrices": 42,
-  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
-  "mpmath": "1.4.1",
-  "assertions_passed": true,
-  "max_error_at_1e8": 6.328125951118352e-09
-}
