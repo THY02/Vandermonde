@@ -1,7 +1,0 @@
-% Compatibility for the unchanged November 2016 SIAM class on modern LaTeX.
-% The class replaces \refstepcounter with a pre-hyperref implementation that
-% does not set \@currentcounter; modern cleveref requires that information.
-% Restore the kernel implementation before hyperref and cleveref wrap it.
-% Load this small shim BEFORE \documentclass. No journal formatting is changed.
-\let\ELAKernelRefstepcounter\refstepcounter
-\AddToHook{package/hyperref/before}{\let\refstepcounter\ELAKernelRefstepcounter}
