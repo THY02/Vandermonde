@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "precision_digits": 80,
+  "coupled_rational_cases": 21,
+  "transition": "1-a^2/b^2",
+  "incorrect_transition_counterexample_checked": true,
+  "nonconstant_flat_directions": 22,
+  "full_matrix_checks": 88,
+  "constant_direction_checks": 8,
+  "precision_rechecks": [
+    {
+      "L": 17,
+      "family": "triangular",
+      "direction": "cos2",
+      "absolute_change": "8.87591846162626e-56"
+    },
+    {
+      "L": 9,
+      "family": "unique_extrema",
+      "direction": "cos1",
+      "absolute_change": "3.19837025719379e-55"
+    }
+  ],
+  "maximum_scaled_error_at_1e7": 9.34210081663072e-13,
+  "scope": "Fixed-dimension finite checks; no uniform remainder assertion.",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "mpmath": "1.4.1",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

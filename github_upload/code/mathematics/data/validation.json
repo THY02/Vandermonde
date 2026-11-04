@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "pdf_pages": 10,
+  "raw_result_row_counts": {
+    "node_conditions.csv": 360,
+    "rounded_system_reference.csv": 27,
+    "fft_accuracy.csv": 36,
+    "input_perturbations.csv": 420,
+    "batch_timings.csv": 24
+  },
+  "latex_diagnostics": "no warnings or unresolved references",
+  "visual_review": "all ten rendered pages inspected",
+  "reference_precision": "80 decimal digits for ideal roots; 100 for rounded systems"
+}

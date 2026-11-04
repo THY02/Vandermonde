@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "precision_digits": 80,
+  "direction_configurations": 45,
+  "evaluated_matrices": 360,
+  "flat_directions": 33,
+  "rotation_directions": 11,
+  "precision_rechecks": [
+    {
+      "L": 17,
+      "direction": "cos1",
+      "relative_change": "9.7495145e-46"
+    },
+    {
+      "L": 17,
+      "direction": "cos2",
+      "relative_change": "7.4186535e-46"
+    }
+  ],
+  "tested_families": [
+    "equal_modulus",
+    "repeated_extrema",
+    "triangular",
+    "unique_extrema"
+  ],
+  "scope": "Finite checks of one-sided slopes and convergence orders; proof is in the manuscript."
+}
